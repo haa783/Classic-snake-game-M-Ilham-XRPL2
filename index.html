@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport", content="width=device-width, initial-scale=1.0">
-        <title>Snake</title>
-        <link rel="stylesheet" href="snake.css">
-        <script src="snake.js"></script>
-    </head>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Snake - UKK Project</title>
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+    <h1>Classic Snake</h1>
+    
+    <div class="score-container">
+        <div id="scoreLabel">Score: <span id="scoreVal">0</span></div>
+        <div id="highScoreLabel">High Score: <span id="highScoreVal">0</span></div>
+    </div>
 
-    <body>
-        <h1>Snake</h1>
-        <canvas id="board"></canvas>
-    </body>
+    <canvas id="board"></canvas>
+
+    <div class="controls-hint">
+        Gunakan <b>Arrow Keys</b> atau <b>WASD</b> untuk bergerak
+    </div>
+
+    <script src="snake.js"></script>
+</body>
 </html>
